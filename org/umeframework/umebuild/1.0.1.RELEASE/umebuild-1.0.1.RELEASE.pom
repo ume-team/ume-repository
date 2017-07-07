@@ -25,10 +25,11 @@
         <module>../umeframework</module>
         <module>../umeframework-boot</module>
         <module>../umeframework-cloud</module>
-        <module>../umeframework-tool</module>
         <module>../ume-cloud-server</module>
         <module>../ume-cloud-gateway</module>
+        <module>../ume-auth</module>
         <!-- 
+        <module>../umeframework-tool</module>
         <module>../ume-auth</module>
         <module>../ume-wechat</module>
          -->
