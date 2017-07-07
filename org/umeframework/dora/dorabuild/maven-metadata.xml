@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.umeframework.dora</groupId>
-  <artifactId>dora-core</artifactId>
+  <artifactId>dorabuild</artifactId>
   <versioning>
     <release>1.0.1.RELEASE</release>
     <versions>
       <version>1.0.1.RELEASE</version>
     </versions>
-    <lastUpdated>20170707072301</lastUpdated>
+    <lastUpdated>20170707072302</lastUpdated>
   </versioning>
 </metadata>
