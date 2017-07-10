@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-    <distributionManagement>
-        <repository>
-            <id>local-ume-repository</id>
-            <url>file:../ume-repository</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-    </distributionManagement>
+	<distributionManagement>
+		<repository>
+			<id>local-ume-repository</id>
+			<url>file:../ume-repository</url>
+			<uniqueVersion>false</uniqueVersion>
+		</repository>
+	</distributionManagement>
 
 	<groupId>org.umeframework</groupId>
 	<artifactId>umeframework-boot</artifactId>
@@ -22,21 +22,21 @@
 	</parent>
 
 	<properties>
-        <version.dora>1.0.1.RELEASE</version.dora>
-        <version.java>1.7</version.java>
+		<version.dora>1.0.1.RELEASE</version.dora>
+		<version.java>1.7</version.java>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <version.jpa-api>2.0-cr-1</version.jpa-api>
-        <version.tomcat>8.0.30</version.tomcat>
-        <version.tomcat.juli>8.0.30</version.tomcat.juli>
+		<version.jpa-api>2.0-cr-1</version.jpa-api>
+		<version.tomcat>8.0.30</version.tomcat>
+		<version.tomcat.juli>8.0.30</version.tomcat.juli>
 	</properties>
 
 	<dependencies>
-        <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <scope>test</scope>
-        </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -61,14 +61,16 @@
 			<scope>provided</scope>
 			<version>${version.tomcat.juli}</version>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-redis</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		 -->
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-redis</artifactId> 
+			<scope>provided</scope> </dependency> -->
 
+		<dependency>
+			<groupId>org.umeframework.dora</groupId>
+			<artifactId>dora-config</artifactId>
+			<version>${version.dora}</version>
+			<scope>compile</scope>
+			<optional>false</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.umeframework.dora</groupId>
 			<artifactId>dora-core</artifactId>
@@ -80,11 +82,25 @@
 					<groupId>javax.validation</groupId>
 					<artifactId>validation-api</artifactId>
 				</exclusion>
-                <exclusion>
-                    <groupId>javax.servlet</groupId>
-                    <artifactId>servlet-api</artifactId>
-                </exclusion>
+				<exclusion>
+					<groupId>javax.servlet</groupId>
+					<artifactId>servlet-api</artifactId>
+				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.umeframework.dora</groupId>
+			<artifactId>dora-kvs</artifactId>
+			<version>${version.dora}</version>
+			<scope>compile</scope>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.umeframework.dora</groupId>
+			<artifactId>dora-orm</artifactId>
+			<version>${version.dora}</version>
+			<scope>compile</scope>
+			<optional>false</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.umeframework.dora</groupId>
@@ -99,27 +115,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
-			<groupId>org.umeframework.dora</groupId>
-			<artifactId>dora-orm</artifactId>
-			<version>${version.dora}</version>
-			<scope>compile</scope>
-			<optional>false</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.umeframework.dora</groupId>
-			<artifactId>dora-kvs</artifactId>
-			<version>${version.dora}</version>
-			<scope>compile</scope>
-			<optional>false</optional>
-		</dependency>
-        <dependency>
-            <groupId>org.umeframework.dora</groupId>
-            <artifactId>dora-config</artifactId>
-            <version>${version.dora}</version>
-            <scope>compile</scope>
-            <optional>false</optional>
-        </dependency>
 
 		<dependency>
 			<groupId>org.hibernate.java-persistence</groupId>
@@ -127,26 +122,25 @@
 			<version>${version.jpa-api}</version>
 			<scope>compile</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
 		<plugins>
-            <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <source>${version.java}</source>  
-                        <target>${version.java}</target>
-                    </configuration>
-            </plugin>
-            <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-resources-plugin</artifactId>
-                    <configuration>
-                        <encoding>${project.build.sourceEncoding}</encoding>
-                    </configuration>
-            </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${version.java}</source>
+					<target>${version.java}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -162,59 +156,47 @@
 				</executions>
 			</plugin>
 		</plugins>
-		
-        <sourceDirectory>src/main/java</sourceDirectory>
-        <testSourceDirectory>src/test/java</testSourceDirectory>
-        <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.*</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*.properties</exclude>
-                </excludes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                </includes>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <testResources>
-            <testResource>
-                <directory>src/test/java</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
-                </includes>
-            </testResource>
-            <testResource>
-                <directory>src/test/resources</directory>
-                <includes>
-                    <include>**/*.*</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*.properties</exclude>
-                </excludes>
-            </testResource>
-            <testResource>
-                <directory>src/test/resources</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                </includes>
-                <filtering>true</filtering>
-            </testResource>
-        </testResources>
-   	</build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		<testSourceDirectory>src/test/java</testSourceDirectory>
+		<testResources>
+			<testResource>
+				<directory>src/test/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+				</includes>
+			</testResource>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+				<filtering>true</filtering>
+			</testResource>
+		</testResources>
+        <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
+	</build>
 
 </project>

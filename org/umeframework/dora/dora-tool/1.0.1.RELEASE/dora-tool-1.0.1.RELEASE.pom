@@ -9,16 +9,15 @@
 		</repository>
 	</distributionManagement>
 
-	<groupId>org.umeframework.dora</groupId>
 	<artifactId>dora-tool</artifactId>
-	<version>1.0.1.RELEASE</version>
+    <parent>
+        <groupId>org.umeframework.dora</groupId>
+        <artifactId>dora-base</artifactId>
+        <version>1.0.1.RELEASE</version>
+        <relativePath>../dora-base</relativePath>
+    </parent>
 
 	<properties>
-		<version.dora>1.0.1.RELEASE</version.dora>
-		<version.java>1.7</version.java>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<version.jpa-api>2.0-cr-1</version.jpa-api>
 		<version.validation-api>1.1.0.Final</version.validation-api>
 		<version.springframework>4.3.7.RELEASE</version.springframework>
@@ -196,70 +195,5 @@
 		</dependency>
 	</dependencies>
 
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>${version.java}</source>
-					<target>${version.java}</target>
-				</configuration>
-			</plugin>
-		</plugins>
-
-		<sourceDirectory>src/main/java</sourceDirectory>
-		<testSourceDirectory>src/test/java</testSourceDirectory>
-		<resources>
-			<resource>
-				<directory>src/main/java</directory>
-				<includes>
-					<include>**/*.properties</include>
-					<include>**/*.xml</include>
-				</includes>
-			</resource>
-			<resource>
-				<directory>src/main/resources</directory>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<excludes>
-					<exclude>**/*.properties</exclude>
-				</excludes>
-			</resource>
-			<resource>
-				<directory>src/main/resources</directory>
-				<includes>
-					<include>**/*.properties</include>
-				</includes>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
-		<testResources>
-			<testResource>
-				<directory>src/test/java</directory>
-				<includes>
-					<include>**/*.properties</include>
-					<include>**/*.xml</include>
-				</includes>
-			</testResource>
-			<testResource>
-				<directory>src/test/resources</directory>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-				<excludes>
-					<exclude>**/*.properties</exclude>
-				</excludes>
-			</testResource>
-			<testResource>
-				<directory>src/test/resources</directory>
-				<includes>
-					<include>**/*.properties</include>
-				</includes>
-				<filtering>true</filtering>
-			</testResource>
-		</testResources>
-	</build>
+	 
 </project>
