@@ -23,7 +23,7 @@
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.archetype</groupId>
-      <artifactId>ume-toolkit-archetype</artifactId>
+      <artifactId>ume-quickstart-tool-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
       <description>Toolkit project for UME application.</description>
     </archetype>
