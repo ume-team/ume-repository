@@ -154,10 +154,22 @@
 						</configuration>
 					</execution>
 				</executions>
+                <configuration>
+                    <compilerArguments>
+                        <extdirs>${project.basedir}/lib</extdirs>
+                    </compilerArguments>
+                </configuration>
 			</plugin>
 		</plugins>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
+            <resource>
+                <directory>lib</directory>
+                <targetPath>BOOT-INF/lib/</targetPath>
+                <includes>
+                    <include>**/*.jar</include>
+                </includes>
+            </resource>
 			<resource>
 				<directory>src/main/java</directory>
 				<includes>
