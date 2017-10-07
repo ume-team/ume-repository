@@ -9,7 +9,15 @@
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
-      <description>Quick start project for UME application.</description>
+      <description>Basic UME application.</description>
+    </archetype>
+    
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-standard-archetype</artifactId>
+      <version>1.0.1.RELEASE</version>
+      <description>Standard UME application which include user authentication logic.</description>
     </archetype>
     
     <archetype>
@@ -17,7 +25,7 @@
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-webapp-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
-      <description>Quick start project for UME WAR (WebApp application).</description>
+      <description>Web (WAR) starter for UME application.</description>
     </archetype>
     
     <archetype>
@@ -25,7 +33,7 @@
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-tool-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
-      <description>Toolkit project for UME application.</description>
+      <description>Toolkit for UME application.</description>
     </archetype>
     
   </archetypes>
