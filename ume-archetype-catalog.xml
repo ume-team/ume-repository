@@ -9,15 +9,15 @@
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
-      <description>Basic UME application.</description>
+      <description>UME standard application.</description>
     </archetype>
     
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-standard-archetype</artifactId>
+      <artifactId>ume-quickstart-basic-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
-      <description>Standard UME application which include user authentication logic.</description>
+      <description>UME basic application.</description>
     </archetype>
     
     <archetype>
