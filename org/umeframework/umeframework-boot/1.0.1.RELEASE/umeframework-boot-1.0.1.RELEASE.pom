@@ -27,8 +27,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<version.jpa-api>2.0-cr-1</version.jpa-api>
-		<version.tomcat>8.0.30</version.tomcat>
-		<version.tomcat.juli>8.0.30</version.tomcat.juli>
+		<version.tomcat>8.5.21</version.tomcat>
+		<version.tomcat.juli>8.5.21</version.tomcat.juli>
 	</properties>
 
 	<dependencies>

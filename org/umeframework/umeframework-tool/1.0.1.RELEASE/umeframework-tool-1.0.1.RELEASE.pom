@@ -9,9 +9,7 @@
 		</repository>
 	</distributionManagement>
 
-	<groupId>org.umeframework</groupId>
 	<artifactId>umeframework-tool</artifactId>
-	<version>1.0.1.RELEASE</version>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>org.umeframework</groupId>
