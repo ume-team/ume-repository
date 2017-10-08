@@ -15,9 +15,9 @@
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-basic-archetype</artifactId>
+      <artifactId>ume-quickstart-mini-archetype</artifactId>
       <version>1.0.1.RELEASE</version>
-      <description>UME basic application.</description>
+      <description>UME mini application.</description>
     </archetype>
     
     <archetype>
