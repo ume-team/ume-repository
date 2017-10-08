@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-    <url>http://umeframework.org</url>
+	
 	<distributionManagement>
 		<repository>
 			<id>local-ume-repository</id>
@@ -196,5 +196,18 @@
 		</dependency>
 	</dependencies>
 
+    <url>http://umeframework.org</url>
+    <developers>
+        <developer>
+            <name>UME Framework Group</name>
+            <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>GNU General Public License</name>
+            <url>http://www.gnu.org/licenses</url>
+        </license>
+    </licenses>
 	 
 </project>
