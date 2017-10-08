@@ -16,6 +16,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
+    	<!-- 
         <module>../dora-base</module>
 		<module>../dora-core</module>
 		<module>../dora-orm</module>
@@ -23,14 +24,16 @@
 		<module>../dora-web</module>
         <module>../dora-config</module>
         <module>../dora-tool</module>
+         -->
         <module>../umeframework</module>
         <module>../umeframework-boot</module>
         <module>../umeframework-cloud</module>
+        <module>../umeframework-tool</module>
         <module>../ume-cloud-server</module>
         <module>../ume-cloud-gateway</module>
-        <module>../ume-auth</module>
-        <module>../umeframework-tool</module>
         <!-- 
+        <module>../ume-auth</module>
+        <module>../ume-ems</module>
         <module>../ume-wechat</module>
          -->
 	</modules>

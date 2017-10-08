@@ -61,4 +61,17 @@
 	</build>
 	 -->
 
+    <developers>
+        <developer>
+            <name>UME Framework Group</name>
+            <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>License MIT</name>
+            <url>http://www.apache.org/licenses</url>
+        </license>
+    </licenses>
+
 </project>
