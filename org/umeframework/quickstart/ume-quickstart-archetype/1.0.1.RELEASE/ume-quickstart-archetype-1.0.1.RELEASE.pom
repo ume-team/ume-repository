@@ -31,35 +31,19 @@
   <description>Parent pom providing dependency and plugin management for applications
 		built with Maven</description>
 
-  <url>http://projects.spring.io/spring-boot/umeframework-boot/ume-quickstart/</url>
+  <url>http://umeframework.org/ume-quickstart</url>
 
   <developers>
     <developer>
-      <id>pwebb</id>
-      <name>Phillip Webb</name>
-      <email>pwebb at pivotal.io</email>
-      <organization>Pivotal Software, Inc.</organization>
-      <organizationUrl>http://www.spring.io</organizationUrl>
-      <roles>
-        <role>Project lead</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>dsyer</id>
-      <name>Dave Syer</name>
-      <email>dsyer at pivotal.io</email>
-      <organization>Pivotal Software, Inc.</organization>
-      <organizationUrl>http://www.spring.io</organizationUrl>
-      <roles>
-        <role>Project lead</role>
-      </roles>
+      <name>UME Framework Group</name>
+      <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
     </developer>
   </developers>
 
   <licenses>
     <license>
-      <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses</url>
     </license>
   </licenses>
 
