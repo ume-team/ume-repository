@@ -28,6 +28,22 @@
     </pluginManagement>
   </build>
 
+  <url>http://umeframework.org/umeframework/ume-quickstart-webapp</url>
+
+  <developers>
+    <developer>
+      <name>UME Framework Group</name>
+      <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses</url>
+    </license>
+  </licenses>
+
   <distributionManagement>
     <repository>
       <id>local-ume-repository</id>
