@@ -8,7 +8,7 @@
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-archetype</artifactId>
-      <version>1.0.RELEASE</version>
+      <version>1.0.1.RELEASE</version>
       <description>UME standard application.</description>
     </archetype>
     
