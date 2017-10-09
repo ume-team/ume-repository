@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.umeframework.quickstart</groupId>
-  <artifactId>ume-quickstart-tool-archetype</artifactId>
-  <version>1.0.1.RELEASE</version>
+  <artifactId>ume-quickstart-webapp-archetype</artifactId>
+  <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>ume-quickstart-tool-archetype</name>
+  <name>ume-quickstart-webapp-archetype</name>
 
   <build>
     <extensions>
@@ -28,9 +28,24 @@
     </pluginManagement>
   </build>
 
+  <url>http://umeframework.org/umeframework/ume-quickstart-webapp</url>
+
+  <developers>
+    <developer>
+      <name>UME Framework Group</name>
+      <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses</url>
+    </license>
+  </licenses>
+
   <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
       <id>local-ume-repository</id>
       <url>file:../ume-repository</url>
     </repository>

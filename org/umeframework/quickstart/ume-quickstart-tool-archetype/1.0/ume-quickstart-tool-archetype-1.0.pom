@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.umeframework.quickstart</groupId>
-  <artifactId>ume-quickstart-mini-archetype</artifactId>
-  <version>1.0.1.RELEASE</version>
+  <artifactId>ume-quickstart-tool-archetype</artifactId>
+  <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>ume-quickstart-mini-archetype</name>
+  <name>ume-quickstart-tool-archetype</name>
 
   <build>
     <extensions>
@@ -28,10 +28,7 @@
     </pluginManagement>
   </build>
 
-  <description>Parent pom providing dependency and plugin management for applications
-		built with Maven</description>
-
-  <url>http://umeframework.org/ume-quickstart-mini</url>
+  <url>http://umeframework.org/umeframework/umeframework-tool/ume-quickstart-tool</url>
 
   <developers>
     <developer>
@@ -46,10 +43,6 @@
       <url>http://www.apache.org/licenses</url>
     </license>
   </licenses>
-
-  <scm>
-    <url>https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/umeframework-boot/ume-quickstart-mini</url>
-  </scm>
 
   <distributionManagement>
     <repository>

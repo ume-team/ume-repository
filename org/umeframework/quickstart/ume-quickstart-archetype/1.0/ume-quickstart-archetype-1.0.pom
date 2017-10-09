@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.umeframework.quickstart</groupId>
-  <artifactId>ume-quickstart-webapp-archetype</artifactId>
-  <version>1.0.1.RELEASE</version>
+  <artifactId>ume-quickstart-archetype</artifactId>
+  <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>ume-quickstart-webapp-archetype</name>
+  <name>ume-quickstart-archetype</name>
 
   <build>
     <extensions>
@@ -28,7 +28,10 @@
     </pluginManagement>
   </build>
 
-  <url>http://umeframework.org/umeframework/ume-quickstart-webapp</url>
+  <description>Parent pom providing dependency and plugin management for applications
+		built with Maven</description>
+
+  <url>http://umeframework.org/ume-quickstart</url>
 
   <developers>
     <developer>
@@ -44,8 +47,13 @@
     </license>
   </licenses>
 
+  <scm>
+    <url>https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/umeframework-boot/ume-quickstart</url>
+  </scm>
+
   <distributionManagement>
     <repository>
+      <uniqueVersion>false</uniqueVersion>
       <id>local-ume-repository</id>
       <url>file:../ume-repository</url>
     </repository>
