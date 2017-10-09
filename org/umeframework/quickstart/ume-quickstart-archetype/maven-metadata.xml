@@ -3,10 +3,10 @@
   <groupId>org.umeframework.quickstart</groupId>
   <artifactId>ume-quickstart-archetype</artifactId>
   <versioning>
-    <release>1.0.2.RELEASE</release>
+    <release>1.0.1.RELEASE</release>
     <versions>
-      <version>1.0.2.RELEASE</version>
+      <version>1.0.1.RELEASE</version>
     </versions>
-    <lastUpdated>20171009072035</lastUpdated>
+    <lastUpdated>20171009074517</lastUpdated>
   </versioning>
 </metadata>
