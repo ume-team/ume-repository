@@ -7,16 +7,16 @@
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-archetype</artifactId>
-      <description>UME standard application.</description>
+      <artifactId>ume-quickstart-boot-archetype</artifactId>
+      <description>UME baisc sample project.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
     
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-mini-archetype</artifactId>
-      <description>UME mini application.</description>
+      <artifactId>ume-quickstart-boot-uac-archetype</artifactId>
+      <description>UME standard project with user access control.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
     
@@ -24,7 +24,7 @@
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-webapp-archetype</artifactId>
-      <description>Web (WAR) starter for UME application.</description>
+      <description>Web (WAR) starter for UME project.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
     
@@ -32,7 +32,7 @@
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-tool-archetype</artifactId>
-      <description>Toolkit for UME application.</description>
+      <description>UME toolkit project.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
     

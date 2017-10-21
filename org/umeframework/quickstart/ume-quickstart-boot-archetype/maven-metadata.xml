@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.umeframework.quickstart</groupId>
-  <artifactId>ume-quickstart-mini-archetype</artifactId>
+  <artifactId>ume-quickstart-boot-archetype</artifactId>
   <versioning>
     <release>1.0.2.RELEASE</release>
     <versions>
       <version>1.0.2.RELEASE</version>
     </versions>
-    <lastUpdated>20171020142845</lastUpdated>
+    <lastUpdated>20171021041029</lastUpdated>
   </versioning>
 </metadata>
