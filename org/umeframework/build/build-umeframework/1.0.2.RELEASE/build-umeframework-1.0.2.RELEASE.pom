@@ -16,25 +16,22 @@
 	<packaging>pom</packaging>
 
 	<modules>
-    	<!-- 
-        <module>../dora-base</module>
-		<module>../dora-core</module>
-		<module>../dora-orm</module>
-		<module>../dora-kvs</module>
-		<module>../dora-web</module>
-        <module>../dora-config</module>
-        <module>../dora-tool</module>
-         -->
         <module>../umeframework</module>
         <module>../umeframework-boot</module>
         <module>../umeframework-cloud</module>
         <module>../umeframework-tool</module>
         <module>../ume-cloud-server</module>
         <module>../ume-cloud-gateway</module>
-        <!-- 
-        <module>../ume-auth</module>
+
+        <module>../ume-uac</module>
         <module>../ume-ems</module>
-        <module>../ume-wechat</module>
+        <module>../ume-wechat-common</module>
+        <module>../ume-wechat-uac</module>
+        <!-- 
+        <module>../ume-uac</module>
+        <module>../ume-ems</module>
+        <module>../ume-wechat-common</module>
+        <module>../ume-wechat-uac</module>
          -->
 	</modules>
 	
