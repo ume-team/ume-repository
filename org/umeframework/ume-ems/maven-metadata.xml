@@ -3,11 +3,11 @@
   <groupId>org.umeframework</groupId>
   <artifactId>ume-ems</artifactId>
   <versioning>
-    <release>1.0.2.RELEASE</release>
+    <release>1.0.1.RELEASE</release>
     <versions>
       <version>1.0.1.RELEASE</version>
       <version>1.0.2.RELEASE</version>
     </versions>
-    <lastUpdated>20171027104059</lastUpdated>
+    <lastUpdated>20171027105534</lastUpdated>
   </versioning>
 </metadata>

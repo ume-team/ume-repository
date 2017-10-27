@@ -10,13 +10,16 @@
 	</repositories>
 
 	<artifactId>ume-ems</artifactId>
+    <version>1.0.1.RELEASE</version>
 
 	<!-- Inherit from umeframework-boot which run as the spring boot project -->
 	<parent>
 		<groupId>org.umeframework</groupId>
 		<artifactId>umeframework-boot</artifactId>
-		<version>1.0.1.RELEASE</version>
+		<version>1.0.2.RELEASE</version>
 	</parent>
+     <dependencies>
+     </dependencies>
 
     <url>http://umeframework.org</url>
     <developers>
