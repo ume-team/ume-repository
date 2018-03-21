@@ -44,5 +44,12 @@
       <version>1.0.2.RELEASE</version>
     </archetype>
     
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-boot-wechat-archetype</artifactId>
+      <description>UME standard project with wechat user access control.</description>
+      <version>1.0.2.RELEASE</version>
+    </archetype>
   </archetypes>
 </archetype-catalog>
