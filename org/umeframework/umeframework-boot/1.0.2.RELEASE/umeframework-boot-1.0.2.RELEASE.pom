@@ -185,6 +185,7 @@
                 <targetPath>BOOT-INF/lib/</targetPath>
                 <includes>
                     <include>**/*.jar</include>
+                    <include>**/*.zip</include>
                 </includes>
             </resource>
 			<resource>
@@ -192,7 +193,11 @@
 				<includes>
 					<include>**/*.properties</include>
 					<include>**/*.xml</include>
+                    <include>**/*.yaml</include>
+                    <include>**/*.toml</include>
+                    <include>**/*.json</include>
 				</includes>
+                <filtering>true</filtering>
 			</resource>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -212,7 +217,11 @@
 				<includes>
 					<include>**/*.properties</include>
 					<include>**/*.xml</include>
+                    <include>**/*.yaml</include>
+                    <include>**/*.toml</include>
+                    <include>**/*.json</include>
 				</includes>
+                <filtering>true</filtering>
 			</testResource>
 			<testResource>
 				<directory>src/test/resources</directory>
