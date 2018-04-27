@@ -13,6 +13,13 @@
 	</parent>
 
 	<dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${version.servlet-api}</version>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
 		<dependency>
 			<groupId>org.umeframework.dora</groupId>
 			<artifactId>dora-core</artifactId>
