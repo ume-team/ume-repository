@@ -29,9 +29,10 @@
         <module>../umeframework-cloud</module>
         <module>../umeframework-tool</module>
         
-        <!-- 
         <module>../ume-cloud-server</module>
         <module>../ume-cloud-gateway</module>
+       
+        <!-- 
 
         <module>../ume-ems</module>
         <module>../ume-wechat</module>

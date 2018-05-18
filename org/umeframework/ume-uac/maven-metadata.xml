@@ -3,10 +3,11 @@
   <groupId>org.umeframework</groupId>
   <artifactId>ume-uac</artifactId>
   <versioning>
-    <release>1.0.1.RELEASE</release>
+    <release>1.0.3.RELEASE</release>
     <versions>
       <version>1.0.1.RELEASE</version>
+      <version>1.0.3.RELEASE</version>
     </versions>
-    <lastUpdated>20180515025336</lastUpdated>
+    <lastUpdated>20180518050703</lastUpdated>
   </versioning>
 </metadata>
