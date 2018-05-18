@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.umeframework.quickstart</groupId>
+  <artifactId>ume-quickstart-tool-archetype</artifactId>
+  <version>1.0.3.RELEASE</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>ume-quickstart-tool-archetype</name>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.0.1</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>3.0.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <url>http://umeframework.org/umeframework/umeframework-tool/ume-quickstart-tool</url>
+
+  <developers>
+    <developer>
+      <name>UME Framework Group</name>
+      <organizationUrl>https://github.com/orgs/ume-team</organizationUrl>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses</url>
+    </license>
+  </licenses>
+
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>local-ume-repository</id>
+      <url>file:../ume-repository</url>
+    </repository>
+  </distributionManagement>
+</project>
