@@ -9,9 +9,61 @@
       <groupId>org.umeframework.quickstart</groupId>
       <artifactId>ume-quickstart-boot-archetype</artifactId>
       <description>UME baisc sample project.</description>
-      <version>1.0.2.RELEASE</version>
+      <version>2.0.0.RELEASE</version>
+    </archetype>
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-boot-uac-archetype</artifactId>
+      <description>UME standard project with user access control.</description>
+      <version>2.0.0.RELEASE</version>
+    </archetype>
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-webapp-archetype</artifactId>
+      <description>Web (WAR) starter for UME project.</description>
+      <version>2.0.0.RELEASE</version>
+    </archetype>
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-tool-archetype</artifactId>
+      <description>UME toolkit project.</description>
+      <version>2.0.0.RELEASE</version>
+    </archetype>
+    <!-- 
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-cloud-archetype</artifactId>
+      <description>UME standard project start as spring cloud provider.</description>
+      <version>2.0.0.RELEASE</version>
+    </archetype>
+     -->
+    
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-boot-archetype</artifactId>
+      <description>UME baisc sample project.</description>
+      <version>1.0.3.RELEASE</version>
+    </archetype>
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-boot-uac-archetype</artifactId>
+      <description>UME standard project with user access control.</description>
+      <version>1.0.3.RELEASE</version>
     </archetype>
     
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-boot-archetype</artifactId>
+      <description>UME baisc sample project.</description>
+      <version>1.0.2.RELEASE</version>
+    </archetype>
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
@@ -19,7 +71,6 @@
       <description>UME standard project with user access control.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
-    
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
@@ -27,7 +78,6 @@
       <description>Web (WAR) starter for UME project.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
-    
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
       <groupId>org.umeframework.quickstart</groupId>
@@ -36,7 +86,6 @@
       <version>1.0.2.RELEASE</version>
     </archetype>
 
-    
     <!-- 
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>

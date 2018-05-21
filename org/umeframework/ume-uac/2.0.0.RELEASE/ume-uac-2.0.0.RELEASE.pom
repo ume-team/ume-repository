@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- Using repository of UME@ https://github.com/ume-team -->
+	<repositories>
+		<repository>
+			<id>ume-repository</id>
+			<url>https://raw.githubusercontent.com/ume-team/ume-repository/master</url>
+		</repository>
+	</repositories>
+
+	<artifactId>ume-uac</artifactId>
+
+	<!-- Inherit from umeframework-boot which run as the spring boot project -->
+	<parent>
+		<groupId>org.umeframework</groupId>
+		<artifactId>umeframework-boot</artifactId>
+		<version>2.0.0.RELEASE</version>
+	</parent>
+
+	<!-- Setup start main entry -->
+	<!-- 
+	<properties> 
+	   <start-class>org.umeframework.quickstart.app.Application</start-class> 
+	</properties> 
+	 -->
+</project>
