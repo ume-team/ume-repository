@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <distributionManagement>
+        <repository>
+            <id>local-ume-repository</id>
+            <url>file:../ume-repository</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+    </distributionManagement>
+
+    <groupId>org.umeframework.build</groupId>
+	<artifactId>build-umeframework-ex</artifactId>
+	<version>1.0.3.RELEASE</version>
+	<packaging>pom</packaging>
+
+	<modules>
+        <module>../ume-uac</module>
+        
+        <module>../ume-quickstart-boot</module>
+        <module>../ume-quickstart-boot-uac</module>
+        <module>../ume-quickstart-cloud</module>
+        <module>../ume-quickstart-webapp</module>
+        <module>../ume-quickstart-tool</module>
+        
+        <!-- 
+        <module>../ume-ems</module>
+        <module>../ume-ems-cloud</module>
+        <module>../ume-ems-webapp</module>
+        <module>../ume-ems-tool</module>
+         -->
+        
+
+	</modules>
+	
+
+</project>

@@ -9,6 +9,16 @@
 		</repository>
 	</distributionManagement>
 
+    <properties>
+        <version.dora>1.0.3.RELEASE</version.dora>
+        <version.java>1.8</version.java>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- <version.jpa-api>1.0.0.Final</version.jpa-api> -->
+        <version.tomcat>8.5.21</version.tomcat>
+        <version.tomcat.juli>8.5.21</version.tomcat.juli>
+    </properties>
+
 	<groupId>org.umeframework</groupId>
 	<artifactId>umeframework-boot</artifactId>
 	<version>1.0.3.RELEASE</version>
@@ -17,19 +27,9 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.2.RELEASE</version>
+		<version>1.5.13.RELEASE</version>
 		<relativePath />
 	</parent>
-
-	<properties>
-		<version.dora>1.0.3.RELEASE</version.dora>
-		<version.java>1.8</version.java>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<!-- <version.jpa-api>1.0.0.Final</version.jpa-api> -->
-		<version.tomcat>8.5.21</version.tomcat>
-		<version.tomcat.juli>8.5.21</version.tomcat.juli>
-	</properties>
 
 	<dependencies>
 		<dependency>
@@ -177,6 +177,19 @@
                     </dependency>
                 </dependencies>                
 			</plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 		</plugins>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>

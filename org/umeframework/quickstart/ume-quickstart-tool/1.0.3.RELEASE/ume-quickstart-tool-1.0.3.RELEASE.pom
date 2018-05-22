@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Using repository of UME@ https://github.com/ume-team -->
+	<repositories>
+		<repository>
+			<id>ume-repository</id>
+			<url>https://raw.githubusercontent.com/ume-team/ume-repository/master</url>
+		</repository>
+	</repositories>
+
+	<groupId>org.umeframework.quickstart</groupId>
+	<artifactId>ume-quickstart-tool</artifactId>
+
+    <!-- Inherit from umeframework-tool -->
+	<parent>
+		<groupId>org.umeframework</groupId>
+		<artifactId>umeframework-tool</artifactId>
+		<version>1.0.3.RELEASE</version>
+	</parent>
+	
+</project>
