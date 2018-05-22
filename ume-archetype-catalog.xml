@@ -56,6 +56,13 @@
       <description>UME standard project with user access control.</description>
       <version>1.0.3.RELEASE</version>
     </archetype>
+    <archetype>
+      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
+      <groupId>org.umeframework.quickstart</groupId>
+      <artifactId>ume-quickstart-webapp-archetype</artifactId>
+      <description>Web (WAR) starter for UME project.</description>
+      <version>1.0.3.RELEASE</version>
+    </archetype>
     
     <archetype>
       <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
@@ -78,30 +85,6 @@
       <description>Web (WAR) starter for UME project.</description>
       <version>1.0.2.RELEASE</version>
     </archetype>
-    <archetype>
-      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
-      <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-tool-archetype</artifactId>
-      <description>UME toolkit project.</description>
-      <version>1.0.2.RELEASE</version>
-    </archetype>
 
-    <!-- 
-    <archetype>
-      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
-      <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-cloud-archetype</artifactId>
-      <description>UME standard project start as spring cloud provider.</description>
-      <version>1.0.2.RELEASE</version>
-    </archetype>
-    
-    <archetype>
-      <repository>https://raw.githubusercontent.com/ume-team/ume-repository/master</repository>
-      <groupId>org.umeframework.quickstart</groupId>
-      <artifactId>ume-quickstart-boot-wechat-archetype</artifactId>
-      <description>UME standard project with wechat user access control.</description>
-      <version>1.0.2.RELEASE</version>
-    </archetype>
-     -->
   </archetypes>
 </archetype-catalog>
