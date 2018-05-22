@@ -9,6 +9,14 @@
 		</repository>
 	</distributionManagement>
 
+    <properties>
+        <version.dora>1.0.3.RELEASE</version.dora>
+        <version.java>1.8</version.java>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <docker.image.prefix>springcloud</docker.image.prefix>
+    </properties>
+    
 	<artifactId>umeframework-tool</artifactId>
 	<packaging>pom</packaging>
 	<parent>
@@ -18,19 +26,18 @@
         <relativePath>../umeframework</relativePath>
 	</parent>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>org.umeframework.dora</groupId>
 			<artifactId>dora-tool</artifactId>
-			<version>1.0.3.RELEASE</version>
+			<version>${version.dora}</version>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.umeframework.dora</groupId>
 			<artifactId>dora-core</artifactId>
-			<version>1.0.3.RELEASE</version>
+			<version>${version.dora}</version>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>
