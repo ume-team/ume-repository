@@ -64,6 +64,7 @@
 		<version.itextg>5.5.10</version.itextg>
 		<version.poi>3.15</version.poi>
 		<version.xmlbeans>2.3.0</version.xmlbeans>
+        <version.reflectasm>1.11.3</version.reflectasm>
 
 		<!-- dora-kvs use -->
 		<version.jedis>2.9.0</version.jedis>

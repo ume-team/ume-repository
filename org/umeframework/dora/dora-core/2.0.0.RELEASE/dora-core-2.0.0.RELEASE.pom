@@ -406,6 +406,13 @@
 			<scope>compile</scope>
 			<optional>false</optional>
 		</dependency>
+		<!-- 
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>reflectasm</artifactId>
+            <version>${version.reflectasm}</version>
+        </dependency>
+         -->
 
 		<dependency>
 			<groupId>mysql</groupId>
